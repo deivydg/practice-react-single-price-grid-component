@@ -1,0 +1,186 @@
+/* styles.css */
+.card-container {
+  position: relative;
+  width: 600px;
+  padding: 50px;
+  border: 1px solid #E1E3E7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.top-box {
+  height: 100px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px;
+}
+.text-title{
+  font-family: 'Karla', sans-serif;
+  color: #56B1AE;
+  font-size:30px;
+}
+
+.text-title2{
+  color: #CEDF76;
+  font-family:'Karla', sans-serif; 
+  
+}
+
+.text-title3{
+  color: #B3B5BE;
+  font-family:'Karla', sans-serif; 
+  
+}
+
+.bottom-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  left: -50px;
+  
+}
+
+.small-box {
+  padding: 40px;
+  position: relative;
+  top: 100px;
+  flex: 1;
+  height: 200px;
+  background-color: #2BB3B1;
+  width: 100%;
+  
+}
+
+.border-container1{
+  border-radius: 0px 0px 0px 8px;
+}
+
+.border-container2{
+  border-radius: 0px 0px 8px 0px;
+}
+
+.text-title-smallbox{
+  color: #D6FBFA;
+  font-family:'Karla', sans-serif; 
+  font-size: 20px;
+}
+.number-text{
+  position: relative;
+  color: #D6FBFA;
+  font-family:'Karla', sans-serif; 
+  font-size: 40px;
+  top: -20px;
+}
+
+.per-month{
+  position: relative;
+  top: -76px;
+  left: 80px;
+  color: #7DE0E3;
+  font-family:'Karla', sans-serif; 
+}
+
+.final-text-smallbox1{
+  position: relative;
+  top: -65px;
+  color: #A3F7F8;
+  font-family:'Karla', sans-serif; 
+}
+
+.login-button{
+  position: relative;
+  top: -64px;
+  width: 225px;
+  height: 40px;
+  background-color: #BFDF32;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #FDFFEB;
+  font-family:'Karla', sans-serif; 
+  font-size: 15px;
+  font-weight:900;
+  box-shadow: rgba(0, 0, 0, 0.128) 0px 0px 20px 1px;
+}
+
+.login-button:hover{
+  background-color: #d3fd00ff;
+  transition: 0.7s;
+}
+
+.small-box-color{
+  background-color: #4ABEBD;
+}
+
+.text-title-smallbox2{
+  color: #CDFFFF;
+  font-family:'Karla', sans-serif; 
+  font-size: 20px;
+
+}
+.text-p{
+  color: #ADEBEE;
+  font-family:'Karla', sans-serif; 
+  
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 100%;
+    height: 958px;
+    max-width: 400px;
+    padding: 20px;
+    left: auto;
+    z-index: 1;
+  }
+
+  .card-container{
+    
+    align-items: center; 
+    width: 100%; 
+    max-width: none; 
+    margin: 0;
+    box-sizing: border-box; 
+    
+    
+  }
+
+  .bottom-container {
+    left:  -15px;
+    height: 700px;
+    align-items: center; 
+    width: 107%; 
+    max-width: none; 
+    margin: 0; 
+    box-sizing: border-box; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+    
+  }
+
+  .small-box {
+    height: 10px;
+    width: 102%; 
+    max-width: none; 
+    margin: 0; 
+    box-sizing: border-box; 
+    padding: 30px;
+    flex: 1;
+    border-radius: 0;
+    background-color: #2BB3B1; 
+    margin-bottom: 0;
+    top: 105px;
+  }
+  .login-button {
+    width: 100%; /* Ajustar al ancho completo del contenedor */
+    max-width: 225px; /* O ajustar según sea necesario */
+    margin: 10px 0; /* Ajustar el margen según sea necesario */
+  }
+ 
+
+}
+
+
